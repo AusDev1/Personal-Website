@@ -460,6 +460,14 @@ input[type="submit"]:hover{
 }
 @media (min-height: 200px){
   .social-links{
-    top: 75%;
+    top: 67%;
+  }
+  .hero-text{
+    top: 36%;
+  }
+}
+@media (min-height: 500px){
+  .social-links{
+    top: 60%;
   }
 }
