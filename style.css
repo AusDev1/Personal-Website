@@ -141,7 +141,7 @@ header .btn:hover::before{
 
 .social-links a{
   color: white;
-  padding: 4px 9px 4px 9px;
+  padding: 10px 17px 10px 17px;
   position: relative;
 }
 
@@ -468,6 +468,6 @@ input[type="submit"]:hover{
 }
 @media (min-height: 500px){
   .social-links{
-    top: 60%;
+    top: 55%;
   }
 }
