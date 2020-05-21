@@ -340,7 +340,7 @@ input[type="submit"]:hover{
   height: 5rem;
   background-color: black;
   top: -2rem;
-  right: 13rem;
+  right: 43%;
   border-radius: 100%;
   display: inline;
   animation: pulse 2s infinite;
