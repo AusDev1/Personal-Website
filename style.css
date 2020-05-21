@@ -339,12 +339,13 @@ input[type="submit"]:hover{
   width: 5rem;
   height: 5rem;
   background-color: black;
-  top: -2.5rem;
-  right: 5rem;
+  top: -2rem;
+  right: 13rem;
   border-radius: 100%;
-  display: flex;
+  display: inline;
   animation: pulse 2s infinite;
   cursor: pointer;
+  text-align: center;
 }
 
 .up i{
@@ -354,6 +355,7 @@ input[type="submit"]:hover{
 }
 
 .copyright p{
+  padding-top: 30px;
   font-size: 1.4rem;
 }
 
@@ -385,6 +387,18 @@ input[type="submit"]:hover{
 @media (min-width: 768px){
   .btn{
     width: 150px;
+  }
+  .up{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
   }
 }
 @media (min-width: 992px){
