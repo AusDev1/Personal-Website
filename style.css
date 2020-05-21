@@ -127,6 +127,24 @@ header .btn::before{
 header .btn:hover::before{
   left: 100%;
 }
+
+.social-links{
+  position: absolute;
+  top: 68%;
+  border-top: #fff solid 1px;
+  width: 40%;
+  left: 30%;
+  height: 2px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.social-links a{
+  color: white;
+  padding: 4px 9px 4px 9px;
+  position: relative;
+}
+
 .icons{
   position: absolute;
   top: 90%;
@@ -357,6 +375,9 @@ input[type="submit"]:hover{
   .hamburger-menu{
     top: 35px;
     right: 25px;
+  }
+  .social-links{
+    top: 60%;
   }
 }
 @media (min-width: 768px){
