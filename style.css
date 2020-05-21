@@ -130,7 +130,7 @@ header .btn:hover::before{
 
 .social-links{
   position: absolute;
-  top: 70%;
+  top: 60%;
   border-top: #fff solid 1px;
   width: 87%;
   left: 6%;
@@ -400,6 +400,10 @@ input[type="submit"]:hover{
     animation: pulse 2s infinite;
     cursor: pointer;
   }
+  .social-links{
+    width: 60%;
+    left: 20%;
+  }
 }
 @media (min-width: 992px){
   header > .container{
@@ -451,6 +455,11 @@ input[type="submit"]:hover{
   }
   .social-links{
     top: 59%;
-    left: 30%;
+    left: 20%;
+  }
+}
+@media (min-height: 200px){
+  .social-links{
+    top: 75%;
   }
 }
