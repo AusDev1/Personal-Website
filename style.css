@@ -134,7 +134,7 @@ header .btn:hover::before{
   border-top: #fff solid 1px;
   width: 40%;
   left: 30%;
-  height: 2px;
+  height: 1px;
   text-align: center;
   padding-top: 15px;
 }
@@ -432,5 +432,9 @@ input[type="submit"]:hover{
   }
   .nav-link:hover::before{
     transform: scaleX(1);
+  }
+  .social-links{
+    top: 59%;
+    left: 30%;
   }
 }
